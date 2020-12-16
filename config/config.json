@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "subir-expedientes-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/subirExpedientes/SubirExpedientesWebPart.js",
+          "manifest": "./src/webparts/subirExpedientes/SubirExpedientesWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SubirExpedientesWebPartStrings": "lib/webparts/subirExpedientes/loc/{locale}.js"
+  }
+}
